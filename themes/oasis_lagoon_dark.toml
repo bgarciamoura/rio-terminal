@@ -1,0 +1,31 @@
+[colors]
+background = "#101825"
+foreground = "#D9E6FA"
+
+cursor = "#F0E68C"
+vi-cursor = "#F8B471"
+
+selection-background = "#22385C"
+selection-foreground = "#D9E6FA"
+
+black   = "#101825"
+red     = "#FF7979"
+green   = "#7FCF78"
+yellow  = "#F0E68C"
+blue    = "#81C0FF"
+magenta = "#C695FF"
+cyan    = "#68C0B6"
+white   = "#FFF7D7"
+
+light-black   = "#3B6A87"
+light-red     = "#FFA0A0"
+light-green   = "#A3E39A"
+light-yellow  = "#F8B471"
+light-blue    = "#87CEEB"
+light-magenta = "#D2ADFF"
+light-cyan    = "#8FD1C7"
+light-white   = "#F7F4E9"
+
+tabs        = "#3B6A87"
+tabs-active = "#D9E6FA"
+bar         = "#101825"

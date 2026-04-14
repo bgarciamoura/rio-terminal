@@ -1,0 +1,43 @@
+padding = [0]
+theme = "oasis_lagoon_dark"
+
+[panel]
+padding = [0]
+border-width = 0.0
+
+[window]
+columns = 120
+rows = 32
+windows-corner-preference = "DoNotRound"
+windows-use-undecorated-shadow = false
+opacity = 0.8
+blur = true
+decorations = "enabled"
+
+[shell]
+program = "nu"
+args = []
+
+[navigation]
+mode = "Plain"
+hide-if-single = true
+
+[fonts]
+family = "JetBrainsMono Nerd Font"
+
+[renderer]
+performance = "High"
+backend = "DX12"
+filters = [
+  "C:/Users/bgarciamoura/Documents/shaders/slang-shaders/crt/crt-effects/vector-glow.slangp",
+]
+use-cpu = false
+
+[editor]
+program = "nvim"
+args = []
+
+[cursor]
+shape = "block"
+blinking = true
+blinking-interval = 800

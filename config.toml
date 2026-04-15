@@ -1,5 +1,7 @@
 padding = [0]
 theme = "oasis_lagoon_dark"
+working-dir = "C:/Users/bgarciamoura"
+use-fork = false
 
 [panel]
 padding = [0]
@@ -19,8 +21,9 @@ program = "nu"
 args = []
 
 [navigation]
-mode = "Plain"
+mode = "Tab"
 hide-if-single = true
+unfocused-split-opacity = 0.5
 
 [fonts]
 family = "JetBrainsMono Nerd Font"
@@ -29,7 +32,11 @@ family = "JetBrainsMono Nerd Font"
 performance = "High"
 backend = "DX12"
 filters = [
-  "C:/Users/bgarciamoura/Documents/shaders/slang-shaders/crt/crt-effects/vector-glow.slangp",
+  # "C:/Users/bgarciamoura/Documents/shaders/slang-shaders/crt/crt-effects/vector-glow.slangp",
+  "C:/Users/bgarciamoura/Documents/shaders/slang-shaders/dithering/jinc2-dedither.slangp",
+  # "C:/Users/bgarciamoura/Documents/shaders/slang-shaders/dithering/cbod_v1.slangp",
+  # "C:/Users/bgarciamoura/Documents/shaders/slang-shaders/dithering/blue_noise_dynamic_4Bit.slangp",
+  # "C:/Users/bgarciamoura/Documents/shaders/slang-shaders/crt/crt-effects/vector-glow.slangp",
 ]
 use-cpu = false
 
@@ -41,3 +48,14 @@ args = []
 shape = "block"
 blinking = true
 blinking-interval = 800
+
+[title]
+content = "{{ TITLE || RELATIVE_PATH || PROGRAM }}"
+
+[bindings]
+keys = [
+  { key = "t", with = "control | shift", action = "CreateTab" },
+  { key = "w", with = "control | shift", action = "CloseTab" },
+  { key = "tab", with = "control", action = "SelectNextTab" },
+  { key = "tab", with = "control | shift", action = "SelectPrevTab" },
+]
